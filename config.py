@@ -24,8 +24,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7024087501"))
 #Port
 PORT = os.environ.get("PORT", "8080")
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://naikmithun274:MPOo2wpAjCx49bEY@telegram.pdb2s.mongodb.net/?retryWrites=true&w=majority&appName=Telegram")
-DB_NAME = os.environ.get("DATABASE_NAME", "Telegram")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://manashsuhoo77:4Hptt83gAdyhdtL5@cluster0.umagl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Time in seconds for message delete, put 0 to never delete
 TIME = int(os.environ.get("TIME", "1800"))
