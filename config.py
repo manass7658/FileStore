@@ -22,7 +22,7 @@ OWNER = os.environ.get("OWNER", "shadow slayer")
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7024087501"))
 #Port
-PORT = os.environ.get("PORT", "8030")
+PORT = os.environ.get("PORT", "8080")
 #Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://manassahu9044889:yourpassword@cluster0.rnugd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
@@ -45,7 +45,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b
 
 # Turn this feature on or off using True or False put value inside  ""
 # TRUE for yes FALSE if no 
-TOKEN = True if os.environ.get('TOKEN', "True") == "False" else False 
+TOKEN = True if os.environ.get('TOKEN', "False") == "False" else False 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 600)) # Add time in seconds
